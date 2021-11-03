@@ -2,3 +2,31 @@
   max-width: 1440px;
   margin: 0 auto;
 }
+
+/*FIRST SECTION */
+
+.wrapper-header {
+  background-color: #4b0082;
+  background-image: url(assets/Frame\ 129.jpg);
+}
+.header {
+  display: flex;
+}
+.header-text {
+  color: #ffffff;
+}
+#FCE558 #FAD264 .welcome-title {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.welcome-span {
+  color: #fce558;
+}
+.welcome-line {
+  color: #fad264;
+}
