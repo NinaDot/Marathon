@@ -14,8 +14,15 @@
 }
 .header-text {
   color: #ffffff;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
 }
-#FCE558 #FAD264 .welcome-title {
+.welcome-title {
+  color: #ffffff;
   font-family: Gilroy;
   font-style: normal;
   font-weight: bold;
@@ -28,5 +35,115 @@
   color: #fce558;
 }
 .welcome-line {
+  width: 83.15px;
+  height: 0px;
+  border: 2px solid #fad264;
   color: #fad264;
+}
+.welcome-offer {
+  font-family: Gilroy;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+.welcome-offer__span {
+  font-family: Gilroy;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+.offer {
+  display: flex;
+}
+.offer-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.offer-img {
+  background-color: #fad264;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+}
+.offer-text {
+  background-color: #ffffff;
+  border-radius: 30px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+.offer-img__img {
+  color: #42196d;
+}
+.date {
+  display: flex;
+}
+.date-img {
+  width: 26.84px;
+  height: 30px;
+}
+.date-text {
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.date-text__span {
+  color: #fce559;
+}
+.buttons {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.buttons-button {
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+.buttons-button:hover {
+  background-color: #fad264;
+}
+.agree {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+.test {
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
 }
