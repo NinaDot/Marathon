@@ -4,6 +4,22 @@
 @import "program.css";
 @import "reasons.css";
 
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+
+  src: local("Gilroy"), url("../fonts/Gilroy-Regular.woff") format("woff"),
+    url("../fonts/Gilroy-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+
+  src: local("Gilroy"), url("../fonts/Gilroy-Bold.woff") format("woff"),
+    url("../fonts/Gilroy-Bold.ttf") format("ttf");
+}
 .result-title {
   display: flex;
 }
