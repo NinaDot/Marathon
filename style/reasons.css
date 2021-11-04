@@ -1,0 +1,50 @@
+.reasons {
+  background-color: #42196d;
+}
+.reasons-title {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fad264;
+}
+.reasons-line {
+  width: 70px;
+  height: 2px;
+  color: #ffffff;
+}
+.reasons-block {
+  display: flex;
+}
+.reason-img {
+  background-color: #ffffff;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #292841;
+}
+.reason-content__text {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
+.reason-content__list {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  list-style-type: none;
+  list-style-image: url(assets/Group\ 2056.png);
+}

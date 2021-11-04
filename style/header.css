@@ -1,0 +1,17 @@
+.wrapper-header {
+  background-color: #4b0082;
+  background-image: url(assets/Frame\ 129.jpg);
+}
+.header-logo {
+  max-width: 77px;
+  max-height: 77px;
+}
+.header-text {
+  color: #ffffff;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+}

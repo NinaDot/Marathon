@@ -1,0 +1,25 @@
+@import "header.css";
+@import "welcome.css";
+@import "offer.css";
+@import "program.css";
+@import "reasons.css";
+
+.result-title {
+  display: flex;
+}
+.result-title__title {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #320b61;
+}
+.result-title__line {
+  color: #e130e3;
+  width: 70px;
+  height: 0px;
+  border: 2px solid #e130e3;
+}
