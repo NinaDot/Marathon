@@ -3,19 +3,30 @@
   font-family: Gilroy;
   font-style: normal;
   font-weight: bold;
+  font-weight: 700;
   font-size: 50px;
   line-height: 60px;
   text-align: center;
   text-transform: uppercase;
+  padding: 3% 0 1% 0;
+}
+@media (max-width: 992px) {
+  .welcome-title {
+    font-size: 36px;
+  }
+}
+@media (max-width: 480px) {
+  .welcome-title {
+    font-size: 30px;
+  }
 }
 .welcome-span {
   color: #fce558;
 }
 .welcome-line {
   width: 83.15px;
-  height: 0px;
-  border: 2px solid #fad264;
-  color: #fad264;
+  border: 3px solid #fad264;
+  margin: 0 0 2% 0;
 }
 .welcome-offer {
   font-family: Gilroy;
@@ -26,6 +37,7 @@
   letter-spacing: 0em;
   text-align: center;
   color: #ffffff;
+  margin: 0 0 5% 0;
 }
 .welcome-offer__span {
   font-family: Gilroy;
@@ -36,4 +48,5 @@
   letter-spacing: 0em;
   text-align: center;
   color: #ffffff;
+  text-transform: uppercase;
 }

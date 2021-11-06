@@ -1,6 +1,15 @@
 .wrapper-header {
-  background-color: #4b0082;
-  background-image: url(assets/Frame\ 129.jpg);
+  background-color: rgb(50, 11, 97, 0.1);
+  background-image: url(../assets/Group\ 2087.jpg);
+  padding: 5% 0 5% 0;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+@media (max-width: 576px) {
+  .wrapper-header {
+    width: 480px;
+  }
 }
 .header-text {
   color: #ffffff;
@@ -11,14 +20,8 @@
   line-height: 26px;
   text-align: center;
 }
-@media (max-width: 480px) {
+@media (max-width: 576px) {
   .header-text {
-    color: #ffffff;
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 26px;
-    text-align: center;
   }
 }

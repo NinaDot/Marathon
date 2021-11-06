@@ -1,10 +1,6 @@
-.offer {
-  display: flex;
-}
-.offer-block {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.offer-block__relativ {
+  position: relative;
+  margin: 0 0 10% 0;
 }
 .offer-img {
   background-color: #fad264;
@@ -12,25 +8,29 @@
   width: 44px;
   height: 44px;
   text-align: center;
+  position: absolute;
+  top: -20%;
+  left: 43%;
+  padding: 7px 0 0 0;
 }
 .offer-text {
   background-color: #ffffff;
   border-radius: 30px;
   font-family: Gilroy;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   color: #000000;
+  text-align: center;
+  padding: 30px 10px 20px 10px;
 }
 .offer-img__img {
   color: #42196d;
 }
 .date {
   display: flex;
+  margin: 0 0 3% 0;
 }
 .date-img {
   width: 26.84px;
@@ -39,14 +39,20 @@
 .date-text {
   font-family: Gilroy;
   font-size: 20px;
-  font-style: normal;
+  font-style: bold;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
   color: #ffffff;
+  display: flex;
 }
-.date-text__span {
+@media (max-width: 768px) {
+  .date-text {
+    font-size: 18px;
+  }
+}
+.date-text__yellow {
   color: #fce559;
 }
 .buttons {
@@ -62,8 +68,24 @@
 .buttons-button {
   background-color: #ffffff;
   border-radius: 30px;
+  padding: 1% 0.1% 1% 0.1%;
 }
-.buttons-button:hover {
+.buttons-button__left {
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 1% 0.1% 1% 0.1%;
+  margin: 0 1% 0 0;
+}
+.buttons-button__right {
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 1% 0.1% 1% 0.1%;
+  margin: 0 0 0 1%;
+}
+.buttons-button__left:hover {
+  background-color: #fad264;
+}
+.buttons-button__right:hover {
   background-color: #fad264;
 }
 .agree {
