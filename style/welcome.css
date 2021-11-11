@@ -10,14 +10,19 @@
   text-transform: uppercase;
   padding: 3% 0 1% 0;
 }
-@media (max-width: 992px) {
+@media (max-width: 575px) {
+  .welcome-title {
+    font-size: 30px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
   .welcome-title {
     font-size: 36px;
   }
 }
-@media (max-width: 480px) {
+@media (min-width: 766px) and (max-width: 992px) {
   .welcome-title {
-    font-size: 30px;
+    font-size: 36px;
   }
 }
 .welcome-span {

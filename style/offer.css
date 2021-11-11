@@ -1,3 +1,6 @@
+.offer {
+  margin: 15% 0 0 0;
+}
 .offer-block__relativ {
   position: relative;
   margin: 0 0 10% 0;
@@ -29,12 +32,14 @@
   color: #42196d;
 }
 .date {
-  display: flex;
   margin: 0 0 3% 0;
 }
 .date-img {
-  width: 26.84px;
   height: 30px;
+}
+.date-image {
+  padding: 0 0 0 0;
+  text-align: right;
 }
 .date-text {
   font-family: Gilroy;
@@ -43,17 +48,85 @@
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0em;
-  text-align: left;
-  color: #ffffff;
-  display: flex;
+  padding: 0;
 }
-@media (max-width: 768px) {
-  .date-text {
-    font-size: 18px;
-  }
+.date-text__white {
+  color: #ffffff;
 }
 .date-text__yellow {
   color: #fce559;
+  text-align: left;
+}
+.date-text__left {
+  text-align: right;
+  padding: 0;
+}
+
+/* xs (<=543px) */
+@media (max-width: 575px) {
+  .date-text__yellow {
+    font-size: 15px;
+    line-height: 10px;
+  }
+  .date-text__white {
+    font-size: 15px;
+    line-height: 10px;
+  }
+  .date-text__left {
+    text-align: left;
+  }
+
+  .container {
+    max-width: 319px;
+    margin: 0 auto;
+  }
+  .buttons-button__left {
+    margin: 0 0 1% 0;
+    padding: 1% 1% 1% 1%;
+  }
+  .buttons-button__right {
+    margin: 1% 0 0 0;
+    padding: 0;
+  }
+}
+
+/* sm (>=576 и <=767) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .date-text__yellow {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .date-text__white {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .date-text__left {
+    text-align: left;
+  }
+  .date-img {
+    width: 32px;
+    height: 35px;
+  }
+  .buttons-button__left {
+    margin: 0 0 1% 0;
+    padding: 0;
+  }
+  .buttons-button__right {
+    margin: 1% 0 0 0;
+    padding: 0;
+  }
+}
+
+/* md (>=768 и <=991) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .date-text__yellow {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .date-text__white {
+    font-size: 18px;
+    line-height: 22px;
+  }
 }
 .buttons {
   font-family: Gilroy;
@@ -74,13 +147,13 @@
   background-color: #ffffff;
   border-radius: 30px;
   padding: 1% 0.1% 1% 0.1%;
-  margin: 0 1% 0 0;
+  margin: 0 1% 1% 0;
 }
 .buttons-button__right {
   background-color: #ffffff;
   border-radius: 30px;
   padding: 1% 0.1% 1% 0.1%;
-  margin: 0 0 0 1%;
+  margin: 0 0 1% 1%;
 }
 .buttons-button__left:hover {
   background-color: #fad264;
@@ -96,6 +169,7 @@
   line-height: 24px;
   text-align: center;
   color: #ffffff;
+  margin: 10px 0 10px 0;
 }
 .test {
   font-family: Gilroy;
@@ -106,4 +180,7 @@
   letter-spacing: 0em;
   text-align: center;
   color: #ffffff;
+}
+.test-text {
+  text-align: left;
 }

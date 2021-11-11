@@ -6,11 +6,6 @@
   background-position: center center;
   background-attachment: fixed;
 }
-@media (max-width: 576px) {
-  .wrapper-header {
-    width: 480px;
-  }
-}
 .header-text {
   color: #ffffff;
   font-family: Gilroy;
@@ -20,7 +15,12 @@
   line-height: 26px;
   text-align: center;
 }
-@media (max-width: 576px) {
+@media (max-width: 575px) {
+  .header-text {
+    font-size: 14px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
   .header-text {
     font-size: 14px;
   }
