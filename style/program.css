@@ -1,18 +1,79 @@
 .main-title {
+  text-align: center;
+  margin: 5% 0 5% 0;
+}
+.main-title__text {
   color: #320b61;
   font-family: Gilroy;
   font-size: 36px;
-  font-style: normal;
+  font-style: bold;
   font-weight: 700;
   line-height: 44px;
   letter-spacing: 0em;
-  text-align: center;
   text-transform: uppercase;
 }
-.program-header {
-  display: flex;
+@media (min-width: 992px) and (max-width: 1199px) {
+  .program-day__day {
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .program-day__date {
+    font-size: 10px;
+    line-height: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .program-day__day {
+    font-size: 10px;
+  }
+  .program-day__date {
+    font-size: 10px;
+  }
+  .program-firstList__item {
+    padding: 1% 0 1% 10%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .program-day__day {
+    font-size: 10px;
+  }
+  .program-day__date {
+    font-size: 10px;
+  }
+  .program-firstList__item {
+    padding: 1% 0 1% 10%;
+  }
+}
+@media (max-width: 575px) {
+  .program-day__day {
+    font-size: 10px;
+  }
+  .program-day__date {
+    font-size: 10px;
+  }
+  .program-firstList__item {
+    padding: 1% 0 1% 10%;
+  }
+}
+.program-main__img {
+  padding: 5% 0 0 0;
 }
 .program-day {
+  background-color: #fad264;
+  padding: 1.5% 0 1.5% 0;
+}
+.program-day__day {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #42196d;
+  margin: 0;
+}
+.program-day__date {
   font-family: Lato;
   font-style: normal;
   font-weight: 900;
@@ -21,9 +82,14 @@
   text-align: center;
   text-transform: uppercase;
   color: #42196d;
-  background-color: #fad264;
+  margin: 0;
 }
+
 .program-title {
+  background-color: #320b61;
+  padding: 2.6% 0 2.5% 0;
+}
+.program-title__title {
   font-family: Gilroy;
   font-style: normal;
   font-weight: bold;
@@ -32,11 +98,9 @@
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  background-color: #320b61;
+  margin: 0;
 }
-.program-main {
-  display: flex;
-}
+
 .program-firstList {
   font-family: Gilroy;
   font-size: 18px;
@@ -47,7 +111,11 @@
   text-align: left;
   color: #000000;
   list-style-type: none;
-  list-style-image: url(assets/Group\ 1633.png);
+  padding: 1% 0 0 0;
+}
+.program-firstList__item {
+  padding: 1% 0 1% 5%;
+  background: url(/Marathon/assets/Group\ 1633.png) no-repeat left center;
 }
 .program-list__text {
   font-family: Gilroy;
@@ -69,4 +137,7 @@
   letter-spacing: 0em;
   text-align: left;
   color: #000000;
+}
+.program-secondList__item {
+  padding: 1% 0 1% 0;
 }

@@ -10,15 +10,15 @@
   text-align: center;
   text-transform: uppercase;
   color: #fad264;
+  padding: 5% 0 0 0;
 }
 .reasons-line {
   width: 70px;
-  height: 2px;
+  border: 2px solid #ffffff;
   color: #ffffff;
+  margin: 3% 0 3% 45%;
 }
-.reasons-block {
-  display: flex;
-}
+
 .reason-img {
   background-color: #ffffff;
   font-family: Gilroy;
@@ -28,6 +28,26 @@
   line-height: 21px;
   text-align: center;
   color: #292841;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  position: relative;
+}
+.reason-img__img {
+  width: 100%;
+}
+.reason-img__b-text {
+  padding: 5% 1% 0 1%;
+}
+.reason-img__t-text {
+  padding: 5% 0 10% 0;
+}
+.reason-img__triangle {
+  position: absolute;
+  left: 45%;
+  top: 97%;
+}
+.reason-content {
+  padding: 5% 0 15% 0;
 }
 .reason-content__text {
   font-family: Gilroy;
@@ -46,5 +66,8 @@
   line-height: 21px;
   color: #ffffff;
   list-style-type: none;
-  list-style-image: url(assets/Group\ 2056.png);
+}
+.reason-content__list-item {
+  background: url(/Marathon/assets/Group\ 2056.png) no-repeat left center;
+  padding: 1% 0 1% 10%;
 }

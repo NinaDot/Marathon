@@ -3,7 +3,7 @@
 @import "offer.css";
 @import "program.css";
 @import "reasons.css";
-
+@import "normalize.css";
 @font-face {
   font-family: "Gilroy";
   font-style: normal;
@@ -16,9 +16,14 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 700;
-
   src: local("Gilroy"), url("../fonts/Gilroy-Bold.woff") format("woff"),
     url("../fonts/Gilroy-Bold.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Lato"), url("../fonts/Lato-Black.ttf") format("ttf");
 }
 .result-title {
   display: flex;
