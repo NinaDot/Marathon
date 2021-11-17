@@ -3,6 +3,7 @@
 @import "offer.css";
 @import "program.css";
 @import "reasons.css";
+@import "result.css";
 @import "normalize.css";
 @font-face {
   font-family: "Gilroy";
@@ -25,22 +26,18 @@
   font-weight: 900;
   src: local("Lato"), url("../fonts/Lato-Black.ttf") format("ttf");
 }
-.result-title {
-  display: flex;
-}
-.result-title__title {
-  font-family: Gilroy;
+@font-face {
+  font-family: "Mulish";
   font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 28px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #320b61;
+  font-weight: 300;
+
+  src: local("Mulish"), url("../fonts/Mulish-Regular.woff2") format("woff2"),
+    url("../fonts/Mulish-Regular.ttf") format("ttf");
 }
-.result-title__line {
-  color: #e130e3;
-  width: 70px;
-  height: 0px;
-  border: 2px solid #e130e3;
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Mulish"), url("../fonts/Mulish-Bold.woff2") format("woff2"),
+    url("../fonts/Mulish-Bold.ttf") format("ttf");
 }
