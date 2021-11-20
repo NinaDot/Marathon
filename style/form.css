@@ -1,0 +1,121 @@
+.form {
+  background-color: #42196d;
+  background-image: url(../assets/фон\ шапки.png);
+  padding: 5% 0 5% 0;
+}
+.form-main__title {
+  color: #ffffff;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  text-transform: uppercase;
+  padding: 3% 0 1% 0;
+}
+.form-title {
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+.form-item {
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  padding: 0 0 0 1%;
+}
+.form-list {
+  padding: 3% 0 3% 0;
+}
+.form-attention {
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #fad264;
+  padding: 0 0 0 8%;
+}
+.form-border {
+  border: 1px solid #ffffff;
+  border-radius: 10%;
+}
+.form-border__offer {
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10% 1% 5% 1%;
+}
+.form-border__agree {
+  font-family: Gilroy;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+  padding: 5% 25% 0 25%;
+}
+.your-name {
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 35px;
+  padding: 5% 5% 5% 5%;
+  width: 90%;
+  margin: 0 5% 0 5%;
+}
+.email {
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 35px;
+  padding: 5% 5% 5% 5%;
+  width: 90%;
+  margin: 0 5% 0 5%;
+}
+.submit {
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 35px;
+  padding: 5% 0 5% 0;
+  background-color: #fad264;
+  padding: 5% 17% 5% 17%;
+  width: 90%;
+  margin: 0 5% 0 5%;
+}
