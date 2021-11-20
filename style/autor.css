@@ -1,0 +1,57 @@
+.autor{
+    padding: 0 0 5% 0;
+}
+.autor-title{
+    font-family: Gilroy;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+color: #320B61;
+;
+
+}
+.autor-line{
+    width: 70px;
+    border: 2px solid #E130E3;
+    margin: 5% 25% 5% 45%
+}
+.autor-name{
+    font-family: Gilroy;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.autor-text{
+    font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+padding: 5% 0 5% 0;
+
+}
+.autor-list{
+    font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+list-style-type: none;
+
+}
+.autor-list__item{
+    background: url(../assets/Polygon\ 11.png) no-repeat left center;
+  padding: 1% 0 1% 10%;
+
+}
